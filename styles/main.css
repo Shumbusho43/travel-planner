@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#location-input {
+    padding: 0.5rem;
+    width: 300px;
+    font-size: 1rem;
+}
+
+#search-btn {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.places-container,
+.weather-container,
+.currency-container {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+/* Add more styling as needed */
+
+/* Places Card Styling */
+.places-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.place-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Weather Card Styling */
+.weather-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.weather-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.weather-header img {
+    width: 60px;
+    height: 60px;
+}
+
+.weather-details p {
+    margin: 0.5rem 0;
+}
+
+/* Currency Card Styling */
+.currency-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.currency-rates {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.currency-rates li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.currency-code {
+    font-weight: bold;
+}
+
+.update-time {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.refresh-btn {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.refresh-btn:hover {
+    background: #2ecc71;
+}
