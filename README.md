@@ -50,6 +50,9 @@ bash
 docker run -p 8080:8080 shumbusho43/travel-planner:v1
 Access the application at http://localhost:8080
 
+Demo
+https://drive.google.com/file/d/1Px3uVio8QbTVl6mzBgekAaSdq36lE09z/view?usp=share_link
+
 With Environment Variables (Recommended for Production)
 
 First create a .env file:
