@@ -16,8 +16,7 @@ COPY . .
 # Make port 8080 available to the world outside this container
 EXPOSE 8080
 
-# Define environment variables for API keys
-# NOTE: In production, use proper secret management
+# NOTE: In production, I will put these keys in a secure place, not hardcoded.
 ENV OPENTRIPMAP_API_KEY=your-actual-key-here
 ENV OPENWEATHER_API_KEY=ae31432365fbca1ff449793432d59d0a
 ENV EXCHANGERATE_API_KEY=154dbe21eef3b7cdf382ed57
